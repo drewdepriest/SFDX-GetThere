@@ -1,0 +1,10 @@
+<template>
+    <lightning-card variant="narrow" icon-name="standard:address">
+        <div slot="title"><strong>Get There</strong></div>
+        <lightning-map map-markers={accounts} markers-title={accounts} zoom-level="10"></lightning-map>
+        <br/>
+        <a href='{uberLinkUrl}' target='_blank'>
+            <img src={uberButtonUrl} width="50%" height="50%"/>
+        </a>
+    </lightning-card>
+</template>
