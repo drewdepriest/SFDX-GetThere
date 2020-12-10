@@ -37,7 +37,6 @@ export default class GetThereMap extends LightningElement {
              this.uberLinkUrl += data[0].location.City + ' ';
              this.uberLinkUrl += data[0].location.State;
             
-            //this.uberLinkUrl += '&dropoff[formatted_address]=' + data[0].location.Street + ' ' + data[0].location.City + ' ' + data[0].lcoation.State;
             this.uberLinkUrl += '&dropoff[latitude]=' + data[0].latitude;
             this.uberLinkUrl += '&dropoff[longitude]=' + data[0].longitude;
 
