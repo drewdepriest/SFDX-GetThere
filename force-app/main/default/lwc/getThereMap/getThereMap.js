@@ -7,7 +7,7 @@ import UberButton from '@salesforce/resourceUrl/UberButton';
 
 export default class GetThereMap extends LightningElement {
 
-    @api UBER_CLIENT_ID = '0MTJs5f-0d46tBM4cMBpZeHtjzOSiiqf';
+    @api UBER_CLIENT_ID = 'YOUR UBER CLIENT ID GOES HERE';
 
     @track accounts;
     @track error;
@@ -16,7 +16,7 @@ export default class GetThereMap extends LightningElement {
 
     uberButtonUrl = UberButton;
 
-    @track uberLinkUrl = 'https://m.uber.com/ul/?action=setPickup&dclient_id=' + '0MTJs5f-0d46tBM4cMBpZeHtjzOSiiqf' + '&pickup=my_location';
+    @track uberLinkUrl = 'https://m.uber.com/ul/?action=setPickup&dclient_id=' + 'YOUR UBER CLIENT ID GOES HERE' + '&pickup=my_location';
 
     // this record's Id
     @api recordId;
