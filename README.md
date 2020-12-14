@@ -1,14 +1,12 @@
-# Salesforce DX Project: Next Steps
+## "How do you add 'Get There' to a Lightning Record Page so that users can have access to the map?
+I built this prototype to help answer a question posed by a user on the Trailblazer Community boards looking to implement a map to an Account record page that would let you call a rideshare to take you to that account's location. (https://trailblazers.salesforce.com/answers?id=9063A000000puWaQAI)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Having worked with the Uber Deeplink Generator (https://eng.uber.com/uber-deeplink/) in the past, this seemed a good opportunity to stitch it together with a simple lightning-map interface.
 
-## How Do You Plan to Deploy Your Changes?
+Check out a very brief demo video of this live in action on Imgur: https://imgur.com/a/mEAftNt
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Update: Now with "Challenge-App"
+Fun LWC project on Trailhead walks you through building an app with LWC Open Source called challenge-app. Very real-world applicable. https://trailhead.salesforce.com/content/learn/projects/build-your-first-app-with-lightning-web-components-open-source
 
 ## Read All About It
 
