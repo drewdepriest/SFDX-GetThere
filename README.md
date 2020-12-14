@@ -5,9 +5,6 @@ Having worked with the Uber Deeplink Generator (https://eng.uber.com/uber-deepli
 
 Check out a very brief demo video of this live in action on Imgur: https://imgur.com/a/mEAftNt
 
-## Update: Now with "Challenge-App"
-Fun LWC project on Trailhead walks you through building an app with LWC Open Source called challenge-app. Very real-world applicable. https://trailhead.salesforce.com/content/learn/projects/build-your-first-app-with-lightning-web-components-open-source
-
 ## Read All About It
 
 - [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
